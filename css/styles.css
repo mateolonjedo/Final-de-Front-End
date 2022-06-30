@@ -317,7 +317,6 @@ header div ul.listaheader {
   
   a.l:link {
     color: white;
-    color: var(--secondary-blue);
     text-decoration: none;
   }
   
