@@ -1,0 +1,606 @@
+ /* NORMALIZACION */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.carrusel{
+  display:none;
+}
+
+/* BOTONES */
+
+a {
+  color: var(--secondary-blue);
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+a:link {
+  color: var(--secondary-blue);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--secondary-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--description-color);
+  text-decoration: none;
+}
+
+
+  .button-orange {
+    font-family: "Be Vietnam Pro", sans-serif;
+    background-color: var(--primary-orange);
+    border-radius: 50px;
+    border: var(--primary-orange);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    padding: 18px 38px;
+    transition: background-color 0.4s ease;
+  }
+  
+  .button-orange:hover {
+    background-color: var(--secondary-orange);
+    color: var(--primary-orange);
+    cursor: pointer;
+  }
+  
+  .button-white {
+    background: white;
+    border-radius: 50px;
+    border: var(--primary-orange);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: var(--primary-orange);
+    padding: 18px 38px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-white:hover {
+    background: var(--secondary-orange);
+    cursor: pointer;
+  }
+
+  /* HEADER */ 
+
+.total {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 100px;
+    width: 100%;
+  }
+
+header div ul.listaheader {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  header div button.button-orange {
+    bottom: 13px;
+    position: relative;
+  }
+
+  /* MAIN: primer cuerpo*/
+
+  :root {
+    --description-color: rgb(143, 148, 167);
+    --footer-color: rgb(29, 30, 37);
+    --primary-orange: rgb(242, 95, 58);
+    --secondary-orange: rgb(255, 239, 234);
+    --secondary-blue: rgb(35, 44, 81);
+  }
+
+  .title {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 61px;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100%;
+  }
+  
+  .intro{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: flex-start;
+    margin-top: -10%;
+  }
+
+  h1 {
+    color: var(--secondary-blue);
+    font-weight: 700;
+    font-size: 58px;
+    width: 495px;
+    height: 12px;
+  }
+  
+  .undertitle-h1 {
+    border: 1px red;
+    font-weight: 500;
+    line-height: 26.01px;
+    padding-top: 190px;
+    width: 360px;
+  }
+
+  section.title div.div1 button.button-orange {
+    position: relative;
+    top: 25px;
+  }
+  
+  .cuadro {
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  /* SEGUNDO CUERPO */
+
+.about {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 191px;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  section.about div.intro{
+    bottom: 105px;
+    position: relative;
+  }
+  
+  
+  h2 {
+    color: var(--secondary-blue);
+    font-weight: 700;
+    font-size: 36px;
+    width: 495px;
+  }
+  
+  .undertitle-h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 40px;
+    width: 360px;
+  }
+  
+  .about-list {
+    list-style: none;
+  }
+  
+  h4 {
+    color: var(--secondary-blue);
+  }
+  
+  .numeros {
+    background: var(--primary-orange);
+    border: var(--primary-orange);
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    padding: 10px 18px;
+    position: relative;
+    right: 7px;
+    top: 0px;
+  }
+  
+  .desc {
+    color: var(--description-color);
+    padding-bottom: 40px;
+    padding-top: 28px;
+    width: 450px;
+  }
+
+  .gente {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+/* TERCER CUERPO */
+
+  .titulo {
+    align-items: center;
+    display: flex;
+    font-size: 39.21px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    width: 100%;
+  }
+
+  .cards {
+    color: var(--description-color);
+    background: rgb(249, 249, 249);
+    font-weight: 500;
+    height: 220px;
+    line-height: 25px;
+    margin-bottom: 45px;
+    position: relative;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    width: 480px;
+  }
+
+  .cardsE {
+    color: var(--description-color);
+    background: rgb(249, 249, 249);
+    font-weight: 500;
+    height: 220px;
+    line-height: 25px;
+    margin-bottom: 45px;
+    position: relative;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    width: 480px;
+  }
+
+  .card-img {
+    bottom: 190px;
+    left: 175px;
+    position: absolute;
+  }
+  
+  .card-text {
+    padding-top: 20px;
+  }
+  
+  .button-people {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 100%;
+  }
+
+  /* Pre Footer */
+
+  .main-end {
+    align-items: center;
+    background-color: var(--primary-orange);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    width: 100%;
+    height: 224px;
+  }
+  
+  .main-end-text {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    width: 500px;
+  }
+  
+  section.main-end button.button-white {
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
+  }
+
+  /* footer */
+
+  a.l {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.5s ease;
+  }
+  
+  a.l:link {
+    color: white;
+    color: var(--secondary-blue);
+    text-decoration: none;
+  }
+  
+  a.l:visited {
+    color: white;;
+    text-decoration: none;
+  }
+  
+  a.l:hover {
+    color: var(--primary-orange);
+    text-decoration: none;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--footer-color);
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 20px;
+    width: 350px;
+  }
+  
+  .input1 {
+    display:flex;
+    background: white;
+    border: white;
+    border-radius: 50px;
+    color: var(--description-color);
+    font-weight: 500;
+    padding: 18px 20px;
+  }
+  
+  section.form button.button-orange {
+    padding: 18px 30px;
+    margin-left: 10px;
+  }
+  
+  section.form p {
+    color: var(--description-color);
+    font-weight: 300;
+    font-size: 12px;
+    
+  }
+
+  .footer-section1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 180px;
+    gap: 20px;
+  }
+  
+  .invert-logo {
+    padding-top: 20px;
+  }
+  
+  .icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+  }
+  
+  .ico{
+    cursor: pointer;
+  }
+
+  .footer-section2 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 600px;
+    line-height: 40px;
+    gap: 20%;
+  }
+  
+  .footer-ul {
+    list-style: none;
+    color:white;
+  }
+
+  .l-a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.5s ease;
+  }
+
+  /* Mediaqueries: Adaptacion a mobile: 375 pixeles */
+
+  @media screen and (max-width: 375px) {
+    .total {
+      justify-content: center;
+      gap: 130px;
+      width: 100%;
+    }
+  
+    header div ul.listaheader {
+      display: none;
+    }
+  
+    header div button.button-orange {
+      display: none;
+    }
+  
+    .title {
+      margin-top: 0px;
+      margin-bottom: 300px;
+    }
+  
+    .chart {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 100px;
+    }
+  
+    .intro{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    h1 {
+      font-size: 34px;
+      width: 350px;
+      text-align: center;
+    }
+  
+    .undertitle-h1 {
+      text-align: center;
+      padding-top: 130px;
+    }
+  
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 90px;
+    }
+  
+    h2 {
+      width: 350px;
+      text-align: center;
+    }
+  
+    ol h4 {
+      background-color: var(--secondary-orange);
+      height: 25px;
+    }
+    .undertitle-h2 {
+      text-align: center;
+    }
+  
+    .list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 60px;
+    }
+
+    .carrusel{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 45%;
+
+    }
+  
+    .numeros {
+      position: relative;
+      top: 0px;
+      right: 0px;
+      padding: 8px 8px;
+    }
+  
+    .desc {
+      color: var(--description-color);
+      padding-bottom: 40px;
+      padding-top: 28px;
+      width: 330px;
+    }
+  
+    .card-img {
+      position: absolute;
+      bottom: 165px;
+      left: 115px;
+    }
+  
+    .main-end-text {
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    footer {
+      display: flex;
+      flex-wrap: wrap-reverse;
+    }
+  
+    .footer-section1 {
+      gap: 0px;
+      margin-top: 40px;
+      flex-wrap: wrap-reverse;
+    }
+  
+    .form {
+      position: relative;
+      justify-content:flex-start;
+      margin-bottom: 40px;
+      gap: 5px;
+    }
+  
+    .input1 {
+      display:flex;
+      background: white;
+      border: white;
+      border-radius: 50px;
+      color: var(--description-color);
+      font-weight: 500;
+      padding: 18px 20px;
+    }
+  
+    section.form button.button-orange {
+      padding: 14px 22px;
+    }
+  
+    section.form p {
+      position: absolute;
+      top: 415px;
+      left: 60px;
+    }
+    
+    .card-text {
+      padding-top: 5px;
+    }
+
+
+    .cardsE{
+      display:none;
+    }
+
+    a.l {
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+      transition: color 0.5s ease;
+    }
+    
+    a.l:link {
+      color: white;
+      color: var(--secondary-blue);
+      text-decoration: none;
+    }
+    
+    a.l:visited {
+      color: white;;
+      text-decoration: none;
+    }
+    
+    a.l:hover {
+      color: var(--primary-orange);
+      text-decoration: none;
+    }
+  }
+  
+  /* Menu Hamburguesa */
+  
+  @media screen and (min-width: 376px) {
+    #i {
+      display: none;
+    }
+  }
+  
